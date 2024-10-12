@@ -84,20 +84,22 @@
  .development-section {
      border-radius: 16px;
      background: rgba(13, 19, 33, 0.02);
-    }
-    
-    .development-container {
-        padding: 20px;
-        margin: 97px 80px;
-    }
-    
-    
+ }
+
+ .development-container {
+     padding: 20px;
+     margin: 97px 80px;
+ }
+
+
  .development-card {
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      align-items: center;
      padding: 48px;
+     border-radius: 16px;
+     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
  }
 
  .development-title {
@@ -111,8 +113,29 @@
      width: 400px;
  }
 
+
  .card-development {
      display: flex;
      margin: 0px 32px;
      gap: 32px;
+     border-radius: 16px;
+     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+ }
+
+ /* inspiration section */
+ .inspiration-section {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     gap: 48;
+     padding: 0 140px;
+ }
+
+ .inspiration-video {
+     position: static;
+     width: 1076px;
+     height: 550px;
+     margin: 10px 0px;
+     border-radius: 16px;
  }
