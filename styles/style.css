@@ -139,3 +139,36 @@
      margin: 10px 0px;
      border-radius: 16px;
  }
+
+ /* framwork styles */
+ .framwork {
+     display: flex;
+     margin-top: 48px;
+     /* justify-content: flex-start; */
+ }
+.target-content{
+    padding: 0 140px;
+}
+ .html-card {
+     margin-right: 24px;
+     padding: 40px;
+     border-radius: 16px;
+     background: rgba(255, 76, 30, 0.05);
+ }
+
+ .css-card {
+     margin-right: 24px;
+     padding: 40px;
+     border-radius: 16px;
+     background: rgba(0, 76, 232, 0.05);
+ }
+
+ .js-card {
+     margin-right: 24px;
+     padding: 40px;
+     border-radius: 16px;
+     background: rgba(255, 223, 0, 0.05);
+ }
+ .card-description{
+    text-align: start;
+ }
