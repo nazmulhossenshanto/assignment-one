@@ -8,15 +8,42 @@
 
 
  /* common shared style */
- .text-primary {
+ .primary-description {
      color: rgb(13, 19, 33);
      font-size: 16px;
      font-weight: 400;
      line-height: 26px;
      text-align: center;
+     opacity: 0.7;
+ }
+
+ .text-primary {
+     color: rgb(13, 19, 33);
+     font-size: 32px;
+     font-weight: 800;
+     text-align: center;
+ }
+
+ .primary-btn {
+     color: rgb(13, 19, 33);
+     font-size: 16px;
+     font-weight: 600;
+     padding: 12px 20px 12px 20px;
+     text-align: center;
+     box-sizing: border-box;
+     border: 1px solid rgb(13, 19, 33);
+     opacity: 0.7;
+
  }
 
  /* header styles */
+
+ /* main styles */
+ main {
+     max-width: 1140px;
+     margin: 0 auto;
+     /* background-color: aqua; */
+ }
 
  /* banner styles */
  .banner-container {
@@ -51,4 +78,41 @@
      padding: 24px;
      border-radius: 8px;
      background: rgb(13, 19, 33);
+ }
+
+ /* development section styles */
+ .development-section {
+     border-radius: 16px;
+     background: rgba(13, 19, 33, 0.02);
+    }
+    
+    .development-container {
+        padding: 20px;
+        margin: 97px 80px;
+    }
+    
+    
+ .development-card {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 48px;
+ }
+
+ .development-title {
+     color: rgba(13, 19, 33, 0.7);
+     font-size: 24px;
+     font-weight: 700;
+     text-align: left;
+ }
+
+ .development-content {
+     width: 400px;
+ }
+
+ .card-development {
+     display: flex;
+     margin: 0px 32px;
+     gap: 32px;
  }
